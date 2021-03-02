@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form Carina Sabao</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+        form {display: table;}
+        p     { display: table-row; font-family: tahoma; }
+        label { display: table-cell; }
+        input { display: table-cell; }
+    </style>
+    <body>
+        <div class="navbar">
+            <a href="Index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Activities</button>
+                <div class="dropdown-content"> 
+                    <a href="Exercise4b.html">Exercise4b</a>
+                    <a href="Exercise5a.html">Exercise5a</a>
+                    <a href="Exercise5b.html">Exercise5b</a>
+                    <a href="Exercise5c.html">Exercise5c</a>
+                    <a href="Exercise6a.html">Exercise6a</a>
+                    <a href="Exercise6b.html">Exercise6b</a>
+                    <a href="Exercise7a.html">Exercise7a</a>
+                    <a href="Exercise8.html">Exercise8</a>
+                </div> 
+            </div>
+        </div><br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/University_of_Baguio_textlogo.png" width="200px">
+        <header style="text-align: center; font-family: Tahoma;"> Student Profile</header>
+        <hr>
+        <form>
+            <p>
+                <label for=studentnum>Student Number</label>:
+                <input type="text" id="=studentnum" name="studentnum" maxlength="12" minlength="5"><br>
+            </p>
+                <br>
+            <p>
+                <label for=studentname>Student Name</label>:
+                    <input type="text" id="studentname" name="lastn">,
+                    <input type="text" id="studentname" name="firstn">&nbsp;
+                    <input type="text" id="studentname" name="middlen"><br>
+            </p>
+                <br>
+            <p>
+                <label for=program>Course Program</label>:
+                    <input list="Programs/Course" name="Porgrams/Course">
+                        <datalist name="Course/Program" id="Programs/Course">
+                            <option value="Bachelor of Science in Information Technology">
+                            <option value="Bachelor of Science in Computer Science">
+                            <option value="Bachelor of Science in Computer Engineering">
+                            <option value="Associate in Computer Technology">
+                            <option value="Bachelor of Science Information Systems">
+                            <option value="Bachelor of Science in Sotware Engineering">
+                        </datalist><br></p>
+                <br>
+            <p>
+                <label for="phonenum">Mobile No.</label>:
+                    <input type="number" id="phonenum" name="phonenum"><br>
+                <br>
+                <label for="email">E-mail Address</label>:
+                    <input type="email" id="email" name="email"></p>
+            <p>
+                <label for="residential">Residential Address</label>:
+                    <input type="text" id="residential" name="residential" >
+                <label for="permanent">Permanent Address</label>:
+                    <input type="text" id="permanent" name="permanent">
+            </p>
+                <br>
+            <p>
+                <label for="region">Region (Permanent)</label>:
+                    <input list="region" name="region" placeholder="-region-">
+                        <datalist name="region" id="region">
+                            <option value="National Capital Region">
+                            <option value="Cordillera Administrative Region">
+                            <option value="Region I">
+                            <option value="Region II">
+                            <option value="Region III">
+                            <option value="Region IV-A">
+                            <option value="Mimaropa">
+                            <option value="Region V">
+                            <option value="Region VI">
+                            <option value="Region VII">
+                            <option value="Region VIII">
+                            <option value="Region IX">
+                            <option value="Region X">
+                            <option value="Region XI">
+                            <option value="Region XII">
+                            <option value="Region XIII">
+                            <option value="BARMM">
+                </datalist>
+            </p>
+                <br>
+            <p>
+                <label for="province">Province (Permanent)</label>:
+                    <input list="province" name="province" placeholder="-province-">
+                        <datalist name="province" id="province">
+                            <option value="Abra">
+                            <option value="Agusan Del Norte ">
+                            <option value="Apayao">
+                            <option value="Benguet">
+                            <option value="Ifugao">
+                            <option value="Kalinga">
+                            <option value="Mountain Province">
+                            <option value="Ilocos Norte">
+                            <option value="Ilocos Sur">
+                            <option value="La Union">
+                            <option value="Pangasinan">
+                            <option value="Batanes">
+                            <option value="Cagayan">
+                            <option value="Isabela">
+                            <option value="Nueva Vizcaya">
+                            <option value="Quirino">
+                            <option value="Aurora">
+                            <option value="Bataan">
+                            <option value="Bulacan">
+                            <option value="Nueva Ecija">
+                            <option value="Pampanga">
+                            <option value="Tarlac">
+                            <option value="Zambales">
+                            <option value="Batangas">
+                            <option value="Cavite">
+                            <option value="Laguna">
+                            <option value="Quezon">
+                            <option value="Rizal">
+                            <option value="Marinduque">
+                            <option value="Surigao del Norte">
+                </datalist>
+            </p><br>
+            <p>
+                <label for="municipality">Municipality (Permanent)</label>:
+                <input list="municipality" name="municipality" placeholder="-municipality-">
+                <datalist name="municipality" id="municipality">
+                    <option value="Bangued">
+                        <option value="Boliney">
+                        <option value="Abucay">
+                        <option value="Bagac">
+                        <option value="Balanga">
+                        <option value="Dinalupihan">
+                        <option value="Hermosa">
+                        <option value="Limay">
+                        <option value="Mariveles">
+                        <option value="Morong">
+                        <option value="Orani">
+                        <option value="Orion">
+                        <option value="Pilar">
+                        <option value="Samal">
+                        <option value="Atok">
+                        <option value="Baguio">
+                        <option value="Bakun">
+                        <option value="Bokod">
+                        <option value="Buguias">
+                        <option value="Itogon">
+                        <option value="Kabayan">
+                        <option value="Kapangan">
+                        <option value="Kibungan">
+                        <option value="La Trinidad">
+                        <option value="Mankayan">
+                        <option value="Sablan">
+                        <option value="Tuba">
+                        <option value="Tublay">
+                        <option value="Alfonso">
+                        <option value="Amadeo">
+                        <option value="Bacoor">
+                        <option value="Carmona">
+                        <option value="Cavite City">
+                        <option value="Dasmariñas">
+                        <option value="General Emilio Aguinaldo">
+                        <option value="General Mariano Alvarez">
+                        <option value="General Trias">
+                        <option value="Imus">
+                        <option value="Indang">
+                        <option value="Kawit">
+                        <option value="Magallanes">
+                        <option value="Maragondon">
+                        <option value="Mendez (Mendez-Nuñez)">
+                        <option value="Naic">
+                        <option value="Noveleta">
+                        <option value="Rosario">
+                        <option value="Silang">
+                        <option value="Tagaytay">
+                        <option value="Tanza">
+                        <option value="Ternate">
+                        <option value="Trece Martires">
+                        <option value="Alcantara">
+                        <option value="Aguinaldo">
+                        <option value="Alfonso Lista (Potia)">
+                        <option value="Asipulo">
+                        <option value="Banaue">
+                        <option value="Hingyon">
+                        <option value="Hungduan">
+                        <option value="Kiangan">
+                        <option value="Lagawe">
+                        <option value="Lamut">
+                        <option value="Mayoyao">
+                        <option value="Tinoc">
+                        <option value="Adams">
+                        <option value="Bacarra">
+                        <option value="Badoc">
+                        <option value="Bangui">
+                        <option value="Banna (Espiritu)">
+                        <option value="Batac">
+                </datalist>   
+            </p><br>
+            <p>
+                <label for="telnum">Permanent Tel. No.</label>:
+                <input type="text" id="telnum" name="telnum">
+            </p><br>
+            <p>
+                <label for="bday">Date of Birth</label>:
+                <input type="date" id="bday" name="bday" max="2021-12-31" min="1953-12-31"> 
+                <label for="place">Place of Birth</label>:
+                <input type="text" id="place" name="placeofbirth">
+            </p><br>
+            <p> <label for="gender" name="gender" id="gender">Gender</label>
+                <input type="radio" id="gender" name="gender" value="male">Male</input>
+                <input type="radio" id="gender" name="gender" value="female">Female</input><br>
+                <label for="religion">Religion</label>:
+                <input list="religion" name="religion" placeholder="-religion-">
+                    <datalist name="religion" id="religion">
+                        <option value="Roman Catholic">
+                        <option value="Iglesia ni Christo">
+                        <option value="Muslim">
+                        <option value="other">
+
+                    </datalist>
+            </p><br><p>
+                <label for="national">Nationality</label>:
+                <input type="text" id="national" name="national"> 
+                <label for="status">Civil Status</label>:
+                <input list="status" name="status" placeholder="-civil status-">
+                    <datalist name="status" id="status">
+                        <option value="Single">
+                        <option value="Married">
+                        <option value="Widow">
+                    </datalist>
+            </p>    
+        </form>
+    </body> <hr>
+</html>
